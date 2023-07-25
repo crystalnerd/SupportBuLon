@@ -14,10 +14,6 @@ OwO:Button("AntiLag", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/AntiLag"))()
 end)
 
-OwO:Button("Linh Tinh", function()
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/main.lua", true))()"))()
-end)
-
 OwO:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/FlyBuLon"))()
 end)
