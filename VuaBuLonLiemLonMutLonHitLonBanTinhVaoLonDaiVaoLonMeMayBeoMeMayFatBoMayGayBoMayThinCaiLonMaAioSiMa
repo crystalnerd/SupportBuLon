@@ -6,6 +6,10 @@ OwO:Button("CopyCframe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/CoppyCframe"))()
 end)
 
+OwO:Button("Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/Esp"))()
+end)
+
 OwO:Button("AntiLag", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/AntiLag"))()
 end)
