@@ -6,12 +6,12 @@ OwO:Button("CopyCframe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/CoppyCframe"))()
 end)
 
-OwO:Button("DEX", function()
+OwO:Button("ArseusX", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 end)
 
-OwO:Button("AntiLag", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/AntiLag"))()
+OwO:Button("Dex", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kickTh/Roblox-Lua-Script-Tool/main/src/Dark_DexV3.lua"))()
 end)
 
 OwO:Button("FlyGui", function()
