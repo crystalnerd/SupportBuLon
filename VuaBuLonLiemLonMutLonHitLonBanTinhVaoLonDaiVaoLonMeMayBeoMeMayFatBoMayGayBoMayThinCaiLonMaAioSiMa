@@ -1,27 +1,31 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/turtle"))()
 
-local OwO = library:Window("TranVanBaoDz")
+local window = library:Window("TranVanBaoDz")
     
-OwO:Button("CopyCframe", function()
+window:Button("CopyCframe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/CoppyCframe"))()
 end)
 
-OwO:Button("ArseusX", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+window:Button("Infinite Yeild", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-OwO:Button("Dex", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kickTh/Roblox-Lua-Script-Tool/main/src/Dark_DexV3.lua"))()
-end)
-
-OwO:Button("FlyGui", function()
+window:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/FlyBuLon"))()
 end)
 
-OwO:Button("Keyboard", function()
+window:Button("Keyboard", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-OwO:Button("RemoteSpy", function()
+window:Button("RemoteSpy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/RemoteSpy.lua"))()
+end)
+
+window:Button("Turtle Spy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/TurtleSpy.lua"))()
+end)
+
+window:Button("Destroy", function()
+library:Destroy()
 end)
