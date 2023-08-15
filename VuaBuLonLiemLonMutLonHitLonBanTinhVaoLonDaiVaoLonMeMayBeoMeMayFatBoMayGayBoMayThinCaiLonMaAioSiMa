@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 end)
 
 window:Button("Dex", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/dex.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kickTh/Roblox-Lua-Script-Tool/main/src/Dark_DexV3.lua"))()
 end)
 
 window:Button("FlyGui", function()
