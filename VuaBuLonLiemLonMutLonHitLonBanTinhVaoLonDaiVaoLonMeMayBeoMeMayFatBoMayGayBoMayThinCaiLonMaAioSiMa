@@ -10,6 +10,10 @@ window:Button("Infinite Yeild", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
+window:Button("Dex", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/dex.txt"))()
+end)
+
 window:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/SupportBuLon/main/FlyBuLon"))()
 end)
