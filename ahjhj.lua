@@ -11,7 +11,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 end)
 
 window:Button("Dex", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kickTh/Roblox-Lua-Script-Tool/main/src/Dark_DexV3.lua"))()
+getgenv().Key = "Bash"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
 end)
 
 window:Button("FlyGui", function()
