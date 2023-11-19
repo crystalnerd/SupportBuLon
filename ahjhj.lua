@@ -25,8 +25,9 @@ window:Button("RemoteSpy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/RemoteSpy.lua"))()
 end)
 
-window:Button("Turtle Spy", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/TurtleSpy.lua"))()
+window:Button("Dex Mega", function()
+getgenv().Key = "Bash"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/retard/DexMobile.lua"))()
 end)
 
 window:Button("Destroy", function()
