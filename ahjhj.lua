@@ -80,6 +80,12 @@ end
 Load(Bypassed_Dex)
     end)
 
+window:Button("Dex Vippro", function()
+local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
+
+__function(__function)
+end)
+
 window:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/FlyBuLon"))()
 end)
