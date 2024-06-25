@@ -98,6 +98,18 @@ window:Button("RemoteSpy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/SupportBuLon/main/RemoteSpy.lua"))()
 end)
 
+window:Button("RemoteSpy 1", function()
+local owner = "Hosvile"
+local branch = "revision"
+
+local function webImport(file)
+    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/MC-Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+end
+
+webImport("init")
+webImport("ui/main")
+end)
+
 window:Button("Destroy", function()
 library:Destroy()
 end)
