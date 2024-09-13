@@ -81,9 +81,7 @@ Load(Bypassed_Dex)
     end)
 
 window:Button("Dex Vippro", function()
-local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
-
-__function(__function)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/DEX-Explorer/main/Mobile.lua"))()
 end)
 
 window:Button("FlyGui", function()
