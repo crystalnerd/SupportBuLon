@@ -40,7 +40,7 @@ end)
 
 -- RemoteSpy Button
 window:Button("RemoteSpy", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/SupportBuLon/main/RemoteSpy.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/refs/heads/main/SimpleSpyMobile"))()
 end)
 
 -- RemoteSpy 1 Button
