@@ -35,12 +35,12 @@ end)
 
 -- Dex Vippro Button
 window:Button("Dex Vippro", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/DEX-Explorer/main/Mobile.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/DEX-Explorer/refs/heads/main/Mobile.lua"))()
 end)
 
 -- RemoteSpy Button
 window:Button("RemoteSpy", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/refs/heads/main/SimpleSpyMobile"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/SimpleSpy/refs/heads/main/Mobile.lua"))()
 end)
 
 -- RemoteSpy 1 Button
